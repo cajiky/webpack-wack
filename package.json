@@ -1,0 +1,28 @@
+{
+  "name": "webpack-wackiness",
+  "version": "1.0.0",
+  "description": "Our client is creating an application to convert and format all of the things! It's going to end up as a massive, messy application if they don't break things into smaller pieces. Webpack is here to save the day!",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrimeAcademy/webpack-wackiness.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PrimeAcademy/webpack-wackiness/issues"
+  },
+  "homepage": "https://github.com/PrimeAcademy/webpack-wackiness#readme"
+}
